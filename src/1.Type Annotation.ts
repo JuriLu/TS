@@ -1,4 +1,4 @@
-/*  Declaring the type to a const is called 'type annotation' */
+`Declaring the type to a const is called 'type annotation' `
 
 // STRING
 let movieTitle: string = "Amadeus";

@@ -1,5 +1,5 @@
 "use strict";
-/*  Declaring the type to a const is called 'type annotation' */
+`Declaring the type to a const is called 'type annotation' `;
 // STRING
 let movieTitle = "Amadeus";
 movieTitle = "Arrival";
