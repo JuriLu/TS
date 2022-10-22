@@ -16,3 +16,11 @@ const encourageStudent = (name: string) => {
 };
 
 encourageStudent("Student");
+
+//Parameter Default Value
+function greet(person: string = "stranger") {
+  return `Hi there, ${person}!`;
+}
+
+greet();
+greet("Juri");

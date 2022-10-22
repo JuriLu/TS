@@ -12,3 +12,9 @@ const encourageStudent = (name) => {
     console.log(`Hello ${name}, you are doing great!!! `);
 };
 encourageStudent("Student");
+//Parameter Default Value
+function greet(person = "stranger") {
+    return `Hi there, ${person}!`;
+}
+greet();
+greet("Juri");
