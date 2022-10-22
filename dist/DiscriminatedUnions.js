@@ -9,9 +9,12 @@ function getFarmAnimalSound(animal) {
             return "moo";
         case "rooster":
             return "that mf sound";
+        case "sheep":
+            return "that mf sound";
         default:
             // We should never make it here, if we handled all cases correctly
-            const shouldNeverGetHere = animal; //error type sheep is not assignable to type never
+            const shouldNeverGetHere = animal;
+        //error 'type sheep is not assignable to type never' if we don't add the sheep case
     }
 }
 const stevie = {
