@@ -10,6 +10,8 @@ Notes:
 - Used string literal instead of comment
 - If there is a piece of code commented with // means , that won't work because is throws error
 
+Commits: 
+
 - 1-3 Basics of types
 - 4-5 Function Types
 
