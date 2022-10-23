@@ -5,7 +5,7 @@ const addNums = (x, y) => {
     return x + y;
 };
 addNums(5, 5); // returns number
-function square(num) {
+function cuSquare(num) {
     num * num; // returns void
 }
 `Anonymous function contextual typing`;

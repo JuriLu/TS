@@ -8,7 +8,7 @@ const addNums = (x: number, y: number) => {
 
 addNums(5, 5); // returns number
 
-function square(num: number) {
+function cuSquare(num: number) {
   num * num; // returns void
 }
 
