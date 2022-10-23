@@ -11,6 +11,14 @@ function square(num) {
 `Anonymous function contextual typing`;
 // In this case the parameter type are infered
 const colors = ["red", "orange", "yellow"];
-colors.map(color => {
-    color.toUpperCase();
-});
+const changed = () => {
+    colors.map((color) => {
+        color.toUpperCase();
+    });
+};
+`Void Return Type`;
+function printTwice(msg) {
+    console.log(msg);
+    console.log(msg);
+    // return `alksdfj`
+}

@@ -6,20 +6,28 @@ const addNums = (x: number, y: number) => {
   return x + y;
 };
 
-addNums(5,5)   // returns number
+addNums(5, 5); // returns number
 
-
-function square(num:number){
-    num * num  // returns void
+function square(num: number) {
+  num * num; // returns void
 }
 
-`Anonymous function contextual typing`
+`Anonymous function contextual typing`;
 
 // In this case the parameter type are infered
 
-const colors = ["red","orange","yellow"];
+const colors = ["red", "orange", "yellow"];
 
-colors.map( color => {
-        color.toUpperCase()
-})
+const changed = () => {
+  colors.map((color) => {
+    color.toUpperCase();
+  });
+};
 
+`Void Return Type`
+
+function printTwice(msg: string): void{
+    console.log(msg);
+    console.log(msg);
+    // return `alksdfj`
+}
