@@ -13,3 +13,13 @@ function square(num:number){
     num * num  // returns void
 }
 
+`Anonymous function contextual typing`
+
+// In this case the parameter type are infered
+
+const colors = ["red","orange","yellow"];
+
+colors.map( color => {
+        color.toUpperCase()
+})
+
