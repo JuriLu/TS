@@ -24,10 +24,26 @@ const changed = () => {
   });
 };
 
-`Void Return Type`
+`Void Return Type`;
 
-function printTwice(msg: string): void{
-    console.log(msg);
-    console.log(msg);
-    // return `alksdfj`
+function printTwice(msg: string): void {
+  console.log(msg);
+  console.log(msg);
+  // return `alksdfj`
 }
+
+` Never Type
+    When it comes to function, the never type annotates a function that should never return
+    A function that never finishes executing
+    A function that throws an exception
+`;
+
+const neverStop = (): never => {
+  while (true) {
+    console.log("I am still going");
+  }
+};
+
+const giveError = (msg: string) => {
+  throw new Error(msg);
+};

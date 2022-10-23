@@ -22,3 +22,16 @@ function printTwice(msg) {
     console.log(msg);
     // return `alksdfj`
 }
+` Never Type
+    When it comes to function, the never type annotates a function that should never return
+    A function that never finishes executing
+    A function that throws an exception
+`;
+const neverStop = () => {
+    while (true) {
+        console.log("I am still going");
+    }
+};
+const giveError = (msg) => {
+    throw new Error(msg);
+};
