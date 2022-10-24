@@ -31,3 +31,13 @@ const mySong: Song = {
 
 console.log(calculatePayout(mySong));
 printSong(mySong);
+
+//* Optional Properties
+
+type Point3D = {
+  x: number;
+  y: number;
+  z?: number;
+};
+
+const point3d: Point3D = { x: 1, y: 2 };

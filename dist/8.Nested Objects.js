@@ -18,3 +18,4 @@ const mySong = {
 };
 console.log(calculatePayout(mySong));
 printSong(mySong);
+const point3d = { x: 1, y: 2 };
