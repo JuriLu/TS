@@ -16,4 +16,5 @@ printName({
 let coordinate = { x: 34, y: 44 };
 //* Annotationg the return type with object type
 function randomCoordinate() {
+    return { x: 2, y: 3 };
 }

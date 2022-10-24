@@ -28,5 +28,5 @@ let coordinate: {x: number, y: number} = {x: 34,y: 44};
 
 //* Annotationg the return type with object type
 function randomCoordinate(): {x: number, y: number} {
-
+     return {x:2,y:3}
 }
