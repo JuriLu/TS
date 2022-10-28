@@ -1,6 +1,6 @@
 `Also the return type of a function can be annotated`;
 
-//Function with return type
+// ? Function with return type
 
 const addNums = (x: number, y: number) => {
   return x + y;
@@ -14,7 +14,7 @@ function cuSquare(num: number) {
 
 `Anonymous function contextual typing`;
 
-// In this case the parameter type are infered
+// * In this case the parameter type are infered
 
 const colors = ["red", "orange", "yellow"];
 

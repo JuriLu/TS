@@ -1,6 +1,6 @@
 "use strict";
 `Also the return type of a function can be annotated`;
-//Function with return type
+// ? Function with return type
 const addNums = (x, y) => {
     return x + y;
 };
@@ -9,7 +9,7 @@ function cuSquare(num) {
     num * num; // returns void
 }
 `Anonymous function contextual typing`;
-// In this case the parameter type are infered
+// * In this case the parameter type are infered
 const colors = ["red", "orange", "yellow"];
 const changed = () => {
     colors.map((color) => {
