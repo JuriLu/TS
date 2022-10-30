@@ -12,7 +12,7 @@ const james = {
 console.log(james);
 // Array that can have a mix of both color types
 const colorsTest = [];
-function greet(names) {
+function greet2(names) {
     if (typeof names === "string") {
         return `Hello ${names}`;
     }

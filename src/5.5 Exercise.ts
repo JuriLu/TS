@@ -45,7 +45,7 @@ type HSL = {
 
 const colorsTest: (RGB | HSL)[] = [];
 
-function greet(names: string | string[]) {
+function greet2(names: string | string[]) {
   if (typeof names === "string") {
     return `Hello ${names}`;
   } else {
