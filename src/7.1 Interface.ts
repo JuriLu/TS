@@ -101,12 +101,12 @@ interface PersonTT {
     name: string
 }
 
-interface Employee {
+interface EmployeeTT {
     readonly id: number,
     email: string
 }
 
-interface Engineer extends PersonTT,Employee{
+interface Engineer extends PersonTT,EmployeeTT{
     level: string
 }
 
