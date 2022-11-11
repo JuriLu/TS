@@ -41,6 +41,8 @@ const singer = {firstName: "Mick", lastName: "Jagger", age: 23}
 printName(singer)                                              //! This works
 
 /* NOTE:
- * It's because of a decision that TS developers made for this case. When write inline in the first case it will throw an error,
- * but when passed as a const it will not, but TS will check only for needed variables and will ignore the Excessive Properties
+ * It's because of a decision that TS developers made for this case.
+ *  When write inline in the first case it will throw an error,
+ * but when passed as a const it will not, because TS will check only for
+ * needed variables and will ignore the Excessive Properties
 */

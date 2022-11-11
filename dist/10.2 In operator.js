@@ -8,5 +8,5 @@ function getRuntime(media) {
     }
     return media.duration;
 }
-getRuntime({ title: "Amadeus", duration: 140 });
-getRuntime({ title: "Amadeus", numEpisodes: 20, episodeDuration: 30 });
+const movieRuntime = getRuntime({ title: "Amadeus", duration: 140 });
+const seriesRuntime = getRuntime({ title: "Amadeus", numEpisodes: 20, episodeDuration: 30 });

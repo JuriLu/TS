@@ -33,6 +33,7 @@ const Cats = {
   },
 };
 
+//! Object Destructuring
 function getProfit(movie: Movie): number {
   const { grossWorldWide: GWW, budget } = movie.boxOffice;
   return GWW - budget;

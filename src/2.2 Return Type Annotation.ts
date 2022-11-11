@@ -2,14 +2,14 @@
 
 // ? Function with return type
 
-const addNums = (x: number, y: number) => {
-  return x + y;
+const addNums = (x: number, y: number): number => {
+    return x + y;
 };
 
 addNums(5, 5); // returns number
 
 function cuSquare(num: number) {
-  num * num; // returns void
+    num * num; // returns void
 }
 
 `Anonymous function contextual typing`;
@@ -19,17 +19,17 @@ function cuSquare(num: number) {
 const colors = ["red", "orange", "yellow"];
 
 const changed = () => {
-  colors.map((color) => {
-    color.toUpperCase();
-  });
+    colors.map((color) => {
+        color.toUpperCase();
+    });
 };
 
 `Void Return Type`;
 
 function printTwice(msg: string): void {
-  console.log(msg);
-  console.log(msg);
-  // return `alksdfj`
+    console.log(msg);
+    console.log(msg);
+    // return `alksdfj`
 }
 
 ` Never Type
@@ -39,11 +39,11 @@ function printTwice(msg: string): void {
 `;
 
 const neverStop = (): never => {
-  while (true) {
-    console.log("I am still going");
-  }
+    while (true) {
+        console.log("I am still going");
+    }
 };
 
 const giveError = (msg: string) => {
-  throw new Error(msg);
+    throw new Error(msg);
 };

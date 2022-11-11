@@ -1,0 +1,6 @@
+.d.ts is the file for types for every library that is installed
+There are cases that some imports , libraries dont't come with and .d.ts file 
+and they must be installed separately with npm, to typescript documentation --> consume
+ for ex:   npm install --save-dev @types/loadash  (loadash is library name)
+
+ 
